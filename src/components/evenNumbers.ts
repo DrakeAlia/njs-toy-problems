@@ -17,5 +17,18 @@ const evenNumbers = () => {
     }
 };
 
-console.log('Even Numbers');
 evenNumbers();
+
+// passing in a number as an argument
+const evenNumbers2 = (x: number) => {
+  for (let i = 0; i <= x; i++) {
+    if (i % 2 === 0) {
+      console.log(`${i} is an EVEN number!`);
+    } else {
+      console.log(`${i} is an ODD number!`);
+    }
+  }
+};
+
+evenNumbers2(50);
+
