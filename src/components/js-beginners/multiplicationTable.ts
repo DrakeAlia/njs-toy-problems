@@ -1,4 +1,4 @@
-// 2. Print a table containing multiplication tables
+// Print a table containing multiplication tables
 
 // Let’s start with the tables that many of us had to memorize in 
 // school. Can you print a table that contains all the answers to 

@@ -1,4 +1,4 @@
-// 1. Print all even numbers from 0 – 10
+// Print all even numbers from 0 – 10
 
 // Try to make the solution to this problem as efficiently as 
 // possible. Consider using loops that would allow you to type the 
@@ -19,16 +19,31 @@ const evenNumbers = () => {
 
 evenNumbers();
 
-// passing in a number as an argument
+
+// Passing in a number as an argument
 const evenNumbers2 = (x: number) => {
+  // Create a for loop that iterates from 0 to x
   for (let i = 0; i <= x; i++) {
+    // Check if i is an even number
     if (i % 2 === 0) {
+      // If i is an even number, log this
       console.log(`${i} is an EVEN number!`);
     } else {
+      // If i is not an even number, log this
       console.log(`${i} is an ODD number!`);
     }
   }
 };
 
+// Call the function and pass in a number as the argument
 evenNumbers2(50);
 
+
+
+function evenNums3() {
+  for (let i = 0; i <= 10; i += 2) {
+    console.log(i);
+  }
+}
+
+evenNums3();
