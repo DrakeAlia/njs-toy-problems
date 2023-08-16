@@ -1,4 +1,4 @@
-// Print all even numbers from 0 – 10
+// Print all even numbers from 0 – 10 or 10,000
 
 // Try to make the solution to this problem as efficiently as 
 // possible. Consider using loops that would allow you to type the 
@@ -19,6 +19,7 @@ const evenNumbers = () => {
 
 evenNumbers();
 
+// 2.
 
 // Passing in a number as an argument
 const evenNumbers2 = (x: number) => {
@@ -39,6 +40,7 @@ const evenNumbers2 = (x: number) => {
 evenNumbers2(50);
 
 
+// 3.
 
 function evenNums3() {
   for (let i = 0; i <= 10; i += 2) {
