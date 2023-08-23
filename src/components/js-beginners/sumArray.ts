@@ -27,8 +27,8 @@ function sumArray(arr: string | any[]) {
 }
 
 // Create an array of numbers.
-const numbers = [1, 2, 3, 4, 5];
+const numbersArr = [1, 2, 3, 4, 5];
 // Call the sumArray function and store the result in a variable.
-const result = sumArray(numbers);
+const result = sumArray(numbersArr);
 // Print the result to the console.
 console.log(`The sum of the numbers in the array is ${result}!`);
