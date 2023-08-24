@@ -14,6 +14,6 @@ function filterNums(arr: any[]) {
 // Create an array of numbers
 const numbers = [-1, 2, -3, 4, -5, 6, -7, 8, -9, 10];
 // Call the filterNums function and store the result in a variable
-const positiveNumbers = filterNums(numbers);
+const positiveNums = filterNums(numbers);
 // Print the result to the console
-console.log(positiveNumbers);
+console.log(positiveNums);
